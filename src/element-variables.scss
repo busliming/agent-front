@@ -1,0 +1,99 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+*/
+
+/* Colors
+-------------------------- */
+$--color-white: #fff !default;
+$--color-black: #000 !default;
+
+$--color-primary: #409EFF !default;
+// $--color-primary: #CCCC66;
+
+$--color-success: #67c23a !default;
+$--color-warning: #e6a23c !default;
+$--color-danger: #f56c6c !default;
+$--color-info: #909399 !default;
+
+$--color-text-primary: #303133 !default;
+$--color-text-regular: #606266 !default;
+$--color-text-secondary: #909399 !default;
+$--color-text-placeholder: #c0c4cc !default;
+
+/* Background
+-------------------------- */
+$--background-color-base: #f5f7fa !default;
+
+/* Border
+-------------------------- */
+$--border-color-base: #dcdfe6 !default;
+$--border-color-light: #e4e7ed !default;
+$--border-color-lighter: #ebeef5 !default;
+$--border-color-extra-light: #f2f6fc !default;
+
+/* Box-shadow
+-------------------------- */
+$--box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04) !default;
+$--box-shadow-dark: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .12) !default;
+$--box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !default;
+
+/* Font
+-------------------------- */
+$--font-color-disabled-base: #bbb !default;
+
+/* Icon
+-------------------------- */
+$--icon-color: #666 !default;
+
+/* Checkbox
+-------------------------- */
+$--checkbox-disabled-input-fill: #edf2fc !default;
+
+/* Select
+-------------------------- */
+$--select-multiple-input-color: #666 !default;
+$--select-dropdown-empty-color: #999 !default;
+
+/* Message
+-------------------------- */
+$--message-background-color: #edf2fc !default;
+
+/* Cascader
+-------------------------- */
+$--cascader-menu-option-color-disabled: #999 !default;
+$--cascader-menu-option-empty-color: #666 !default;
+$--cascader-menu-group-color: #999 !default;
+$--cascader-menu-option-pinyin-color: #999 !default;
+
+/* Tab
+-------------------------- */
+$--tab-border-line: 1px solid #e4e4e4 !default;
+
+/* Dialog
+-------------------------- */
+$--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
+
+/* Table
+-------------------------- */
+$--table-fixed-box-shadow: 0 0 10px rgba(0, 0, 0, .12) !default;
+
+/* Slider
+--------------------------*/
+$--slider-button-hover-color: mix($--color-primary, black, 97%) !default;
+
+/* DatePicker
+--------------------------*/
+$--datepicker-inner-border-color: #e4e4e4 !default;
+$--datepicker-cell-hover-color: #fff !default;
+
+
+/* Carousel
+--------------------------*/
+$--carousel-arrow-background: rgba(31, 45, 61, 0.11) !default;
+$--carousel-arrow-hover-background: rgba(31, 45, 61, 0.23) !default;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
