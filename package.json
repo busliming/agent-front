@@ -7,7 +7,7 @@
     "build": "vue-cli-service build --dest agentfront"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "blueimp-md5": "^2.10.0",
     "echarts": "^4.2.0-rc.1",
     "element-ui": "^2.4.11",
